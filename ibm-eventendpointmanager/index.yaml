@@ -3,12 +3,12 @@ entries:
   ibm-eventendpoint-instance:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-08T15:17:40.00817+02:00"
+    created: "2022-07-08T15:25:44.054262+02:00"
     description: A Helm chart for Kubernetes
     digest: e566d9105ca48be426d6abc8d9c9dfb45aa1e4368912cc6b54a4c14162fec1f8
     name: ibm-eventendpoint-instance
     type: application
     urls:
-    - https://tomvanoppens.github.io/toolkit-charts-built/ibm-eventendpoint-instance-0.1.0.tgz
+    - https://tomvanoppens.github.io/toolkit-charts-built/ibm-eventendpointmanager/ibm-eventendpoint-instance-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-08T15:17:40.006345+02:00"
+generated: "2022-07-08T15:25:44.049857+02:00"

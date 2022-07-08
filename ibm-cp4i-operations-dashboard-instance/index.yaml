@@ -3,12 +3,12 @@ entries:
   ibm-cp4i-operations-dashboard-instance:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-08T16:05:53.557895+02:00"
+    created: "2022-07-08T16:25:49.605012+02:00"
     description: A Helm chart for Kubernetes
-    digest: 15585eee02151ee37e05d84c95516dae51b3c551bf95161258b189e2422d52e4
+    digest: cc4cbb70b7893ab1a2efa31ef2ea50e1208681ee6b14cd860b9516d5d3f90595
     name: ibm-cp4i-operations-dashboard-instance
     type: application
     urls:
     - https://tomvanoppens.github.io/toolkit-charts-built/ibm-cp4i-operations-dashboard-instance/ibm-cp4i-operations-dashboard-instance-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-08T16:05:53.55711+02:00"
+generated: "2022-07-08T16:25:49.604299+02:00"

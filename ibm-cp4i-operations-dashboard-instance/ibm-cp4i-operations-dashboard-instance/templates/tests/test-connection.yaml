@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "ibm-cp4i-operations-dashboard-instance.fullname" . }}-test-connection"
+  labels:
+    {{- include "ibm-cp4i-operations-dashboard-instance.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "ibm-cp4i-operations-dashboard-instance.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never

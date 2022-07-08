@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "ibm-cp4i-operations-dashboard-instance.fullname" . }}
+  labels:
+    {{- include "ibm-cp4i-operations-dashboard-instance.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "ibm-cp4i-operations-dashboard-instance.selectorLabels" . | nindent 4 }}
